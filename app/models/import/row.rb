@@ -38,12 +38,12 @@ class Import::Row < ApplicationRecord
   end
 
   private
-    # In the Maybe system, positive quantities == "inflows"
+    # In the Sencash system, positive quantities == "inflows"
     def apply_trade_signage_convention(value)
       value * (import.signage_convention == "inflows_positive" ? 1 : -1)
     end
 
-    # In the Maybe system, positive amounts == "outflows", so we must reverse signage
+    # In the Sencash system, positive amounts == "outflows", so we must reverse signage
     def apply_transaction_signage_convention(value)
       value * (import.signage_convention == "inflows_positive" ? -1 : 1)
     end

@@ -71,7 +71,7 @@ class Provider::Plaid
   def get_link_token(user_id:, webhooks_url:, redirect_url:, accountable_type: nil)
     request = Plaid::LinkTokenCreateRequest.new({
       user: { client_user_id: user_id },
-      client_name: "Maybe Finance",
+      client_name: "Sencash Finance",
       products: [ get_primary_product(accountable_type) ],
       additional_consented_products: get_additional_consented_products(accountable_type),
       country_codes: [ "US", "CA" ],

@@ -1,4 +1,4 @@
-module Maybe
+module Sencash
   class << self
     def version
       Semver.new(semver)

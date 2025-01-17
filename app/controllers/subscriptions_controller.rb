@@ -35,7 +35,7 @@ class SubscriptionsController < ApplicationController
   def success
     checkout_session = stripe_client.v1.checkout.sessions.retrieve(params[:session_id])
     Current.session.update(subscribed_at: Time.at(checkout_session.created))
-    redirect_to root_path, notice: "You have successfully subscribed to Maybe+."
+    redirect_to root_path, notice: "You have successfully subscribed to Sencash+."
   rescue Stripe::InvalidRequestError
     redirect_to settings_billing_path, alert: "Something went wrong processing your subscription. Please contact us to get this fixed."
   end

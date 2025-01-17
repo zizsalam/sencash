@@ -84,7 +84,7 @@ http_interactions:
       string: '{"mode":"gfm","context":"maybe-finance/maybe","text":"This week''s
         release comes with a variety of bug fixes and improvements to the UI.\r\n\r\nAdditionally,
         users can now input details for their property and vehicle accounts as shown
-        in the video below.  In the near future, Maybe will support data providers
+        in the video below.  In the near future, Sencash will support data providers
         related to the \"valuation\" of properties and vehicles (i.e. Zillow, KBB).  We
         will use the information from user accounts to automatically fetch estimated
         market values for these assets which will then be added periodically as \"Valuations\"
@@ -177,7 +177,7 @@ http_interactions:
       encoding: ASCII-8BIT
       string: |-
         <p dir="auto">This week's release comes with a variety of bug fixes and improvements to the UI.</p>
-        <p dir="auto">Additionally, users can now input details for their property and vehicle accounts as shown in the video below.  In the near future, Maybe will support data providers related to the "valuation" of properties and vehicles (i.e. Zillow, KBB).  We will use the information from user accounts to automatically fetch estimated market values for these assets which will then be added periodically as "Valuations" in the value tab of each account.  This will then show up in the history graph for the account balance.</p>
+        <p dir="auto">Additionally, users can now input details for their property and vehicle accounts as shown in the video below.  In the near future, Sencash will support data providers related to the "valuation" of properties and vehicles (i.e. Zillow, KBB).  We will use the information from user accounts to automatically fetch estimated market values for these assets which will then be added periodically as "Valuations" in the value tab of each account.  This will then show up in the history graph for the account balance.</p>
         <details open="" class="details-reset border rounded-2">
           <summary class="px-3 py-2">
             <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-device-camera-video">

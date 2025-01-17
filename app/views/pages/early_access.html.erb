@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="h-full" lang="en">
   <head>
-    <title><%= content_for(:title) || "🔒 Maybe Early Access" %></title>
+    <title><%= content_for(:title) || "🔒 Sencash Early Access" %></title>
 
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -15,7 +15,7 @@
     <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Maybe">
+    <meta name="apple-mobile-web-app-title" content="Sencash">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
@@ -25,8 +25,8 @@
   <body class="subpixel-antialiased h-full bg-black text-white flex flex-col bg-top bg-no-repeat bg-cover" style="background-image: url('<%= asset_path("bg-grid.png") %>');">
     <div class="flex-grow flex items-center justify-center p-4 sm:p-6 md:p-8">
       <div class="w-full max-w-sm mx-auto text-center rounded-lg p-6">
-        <%= image_tag "logo-squircle.svg", alt: "Maybe Logo", class: "w-16 h-16 sm:w-18 sm:h-18 mx-auto mb-6 sm:mb-8" %>
-        <h1 class="text-2xl font-normal my-4">Maybe Early Access</h1>
+        <%= image_tag "logo-squircle.svg", alt: "Sencash Logo", class: "w-16 h-16 sm:w-18 sm:h-18 mx-auto mb-6 sm:mb-8" %>
+        <h1 class="text-2xl font-normal my-4">Sencash Early Access</h1>
         <% if @invite_codes_count > 0 %>
           <p class="text-base text-gray-400">There <%= @invite_codes_count == 1 ? "is" : "are" %> <span class="text-white"><%= @invite_codes_count %> invite <%= "code".pluralize(@invite_codes_count) %></span> remaining.</p>
           <div class="bg-gray-900 border border-gray-800 p-2 rounded-xl my-4">
@@ -49,7 +49,7 @@
       </div>
     </div>
     <footer class="pb-6 sm:pb-10 text-center text-gray-400 text-sm">
-      ©2024 Maybe Finance, Inc.
+      ©2024 Sencash Finance, Inc.
     </footer>
   </body>
 </html>

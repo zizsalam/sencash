@@ -1,17 +1,17 @@
-# Deploy Maybe in One Click
+# Deploy Sencash in One Click
 
-Below are our "one-click deploy" options for running Maybe in the cloud:
+Below are our "one-click deploy" options for running Sencash in the cloud:
 
 ## Render
 
-Welcome to the one-click deploy guide for Maybe on [Render](https://render.com/)!
+Welcome to the one-click deploy guide for Sencash on [Render](https://render.com/)!
 
 Render is a hosting platform with a generous free tier and makes it easy to get
-started with Maybe:
+started with Sencash:
 
 - Getting started is FREE
 - Up and running in <5 minutes
-- Your Maybe app is automatically deployed to a live URL
+- Your Sencash app is automatically deployed to a live URL
 
 ### Estimated Costs
 
@@ -20,7 +20,7 @@ started with Maybe:
   keep using it)
 - $14+ per month for optimal performance
 
-_**IMPORTANT:** if you plan to host Maybe on Render long-term, you MUST upgrade
+_**IMPORTANT:** if you plan to host Sencash on Render long-term, you MUST upgrade
 your database to a paid Render service._
 
 ### Instructions
@@ -33,7 +33,7 @@ your database to a paid Render service._
 
 1. Click the button above.
 2. Sign in or create your account with Render (FREE)
-3. Give your blueprint a name (we suggest `Maybe`)
+3. Give your blueprint a name (we suggest `Sencash`)
 4. Select the `main` branch
 5. You should see a section at the bottom with a "Key:Value" field
    for `SECRET_KEY_BASE`. Do NOT click "generate".
@@ -48,7 +48,7 @@ your database to a paid Render service._
 10. Click "Apply". This will take a few minutes.
 11. Once complete, click on the `maybe` "Web Service". You should see a custom
     URL in the format `https://maybe-abcd.onrender.com`. Click on it, and you'll
-    see your running Maybe app!
+    see your running Sencash app!
 
 #### Step 2: Add your deploy hook for auto-updates
 
@@ -59,7 +59,7 @@ To get new releases, you will need to add your deploy hook to the app.
 3. Scroll down to the end of the "Build and Deploy" section until you find the "
    Deploy Hook"
 4. Copy this value
-5. Open your new Maybe app, click your profile, click "Self Host Settings"
+5. Open your new Sencash app, click your profile, click "Self Host Settings"
 6. Paste your deploy hook in the settings and save
 7. You're all set!
 
@@ -68,13 +68,13 @@ To get new releases, you will need to add your deploy hook to the app.
 By default, we set you up with a FREE Render web service and a FREE postgres
 database. We do this for a few reasons:
 
-- It allows you to take self-hosted Maybe for a FREE test-drive
+- It allows you to take self-hosted Sencash for a FREE test-drive
 - It prevents newcomers from incurring unexpected hosting charges
 
 ##### Upgrade your Database (REQUIRED)
 
 All FREE Render databases **will be deleted after a few months**. This means
-that **you will lose all of your Maybe data**.
+that **you will lose all of your Sencash data**.
 
 **To avoid losing data, you MUST upgrade your Render database** (a "starter"
 instance is $7/month)
@@ -86,5 +86,5 @@ You can upgrade your instance directly in the Render dashboard.
 All FREE Render web services use a small amount of memory and "sleep" after
 periods of inactivity.
 
-For the _fastest_ Maybe experience, you should upgrade your web service (a "
+For the _fastest_ Sencash experience, you should upgrade your web service (a "
 starter" instance is $7/month)

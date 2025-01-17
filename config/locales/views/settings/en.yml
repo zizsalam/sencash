@@ -27,7 +27,7 @@ en:
       previous: Back
     preferences:
       data_enrichment_settings:
-        description: Let Maybe auto-categorize, name, and add merchant data to your
+        description: Let Sencash auto-categorize, name, and add merchant data to your
           transactions on each sync.  All enrichment is done in English.
         self_host_disclaimer: This will incur Synth API credits.
         title: Transaction enrichment (English only)
@@ -68,7 +68,7 @@ en:
         last_name: Last Name
         page_title: Account
         pending: Pending
-        profile_subtitle: Customize how you appear on Maybe
+        profile_subtitle: Customize how you appear on Sencash
         profile_title: Profile
         save: Save
     user_avatar_field:

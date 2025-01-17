@@ -58,7 +58,7 @@ loan:
 
 property:
   family: dylan_family
-  name: 123 Maybe Court
+  name: 123 Sencash Court
   balance: 550000
   currency: USD
   accountable_type: Property

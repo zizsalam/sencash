@@ -18,5 +18,5 @@ en:
     upgrade_notification:
       app_upgraded: The app has been upgraded to %{version}.
       dismiss: Dismiss
-      new_version_available: A new version of Maybe is available for upgrade.
+      new_version_available: A new version of Sencash is available for upgrade.
       upgrade_now: Upgrade Now

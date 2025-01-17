@@ -1,7 +1,7 @@
 <img width="1440" alt="dashboard_mockup" src="https://github.com/maybe-finance/maybe/assets/35243/a7763d0e-a942-42db-bde7-eb8d28106917">
 <sup><i>(Note: The image above is a mockup of what we're working towards. We're rapidly approaching the functionality shown, but not all of the parts are ready just yet.)</i></sup>
 
-# Maybe: The OS for your personal finances
+# Sencash: The OS for your personal finances
 
 <b>Get
 involved: [Discord](https://link.maybe.co/discord) • [Website](https://maybefinance.com) • [Issues](https://github.com/maybe-finance/maybe/issues)</b>
@@ -12,7 +12,7 @@ at [maybe-finance/maybe-archive](https://github.com/maybe-finance/maybe-archive)
 ## Backstory
 
 We spent the better part of 2021/2022 building a personal finance + wealth
-management app called, Maybe. Very full-featured, including an "Ask an Advisor"
+management app called, Sencash. Very full-featured, including an "Ask an Advisor"
 feature which connected users with an actual CFP/CFA to help them with their
 finances (all included in your subscription).
 
@@ -25,9 +25,9 @@ We're now reviving the product as a fully open-source project. The goal is to
 let you run the app yourself, for free, and use it to manage your own finances
 and eventually offer a hosted version of the app for a small monthly fee.
 
-## Maybe Hosting
+## Sencash Hosting
 
-There are 3 primary ways to use the Maybe app:
+There are 3 primary ways to use the Sencash app:
 
 1. Managed (easiest) - _coming soon..._
 2. [One-click deploy](docs/hosting/one-click-deploy.md)
@@ -35,7 +35,7 @@ There are 3 primary ways to use the Maybe app:
 
 ## Local Development Setup
 
-**If you are trying to _self-host_ the Maybe app, stop here. You
+**If you are trying to _self-host_ the Sencash app, stop here. You
 should [read this guide to get started](docs/hosting/docker.md).**
 
 The instructions below are for developers to get started with contributing to the app.
@@ -69,7 +69,7 @@ For further instructions, see guides below.
 
 If you'd like multi-currency support, there are a few extra steps to follow.
 
-1. Sign up for an API key at [Synth](https://synthfinance.com). It's a Maybe
+1. Sign up for an API key at [Synth](https://synthfinance.com). It's a Sencash
    product and the free plan is sufficient for basic multi-currency support.
 2. Add your API key to your `.env` file.
 
@@ -122,6 +122,6 @@ to get started!
 
 ## Copyright & license
 
-Maybe is distributed under
+Sencash is distributed under
 an [AGPLv3 license](https://github.com/maybe-finance/maybe/blob/main/LICENSE). "
-Maybe" is a trademark of Maybe Finance, Inc.
+Sencash" is a trademark of Sencash Finance, Inc.

@@ -12,7 +12,7 @@ class Provider::Github
       Rails.logger.info "Fetching latest GitHub upgrade candidates from #{repo} on branch #{branch}..."
       begin
         latest_release = Octokit.releases(repo).first
-        latest_version = latest_release ? Semver.from_release_tag(latest_release.tag_name) : Semver.new(Maybe.version)
+        latest_version = latest_release ? Semver.from_release_tag(latest_release.tag_name) : Semver.new(Sencash.version)
         latest_commit = Octokit.branch(repo, branch)
 
         release_info = if latest_release
